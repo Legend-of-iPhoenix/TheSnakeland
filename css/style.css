@@ -4,6 +4,10 @@
 	color: #fff;
 }
 
+body {
+	background-color: #000;
+}
+
 img {
 	max-height: 500px;
 	border-radius: 5px;
