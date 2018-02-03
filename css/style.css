@@ -1,0 +1,27 @@
+* {
+	font-family: 'Sigmar One', cursive;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+img {
+	max-height: 500px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 102px 0px rgba(255,255,255,0.8);
+}
+
+input[type=button] {
+	color: #000;
+	outline: none;
+	display: block;
+	border: none;
+	border-radius: 1px;
+}
+
+.on {
+	background-color: #0f0;
+}
+
+.off {
+	background-color: #f00;
+}
