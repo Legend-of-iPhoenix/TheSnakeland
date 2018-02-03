@@ -44,4 +44,7 @@ function toggleRainbow() {
     }
   }, 50);
   }
+  isRunning = !isRunning;
+  var button = document.getElementsByTagName("input")[0];
+  button.classList = isRunning ? "on" : "off"
 }
