@@ -16,10 +16,27 @@
 			border-radius: 5px;
 			box-shadow: 0px 0px 102px 0px rgba(255,255,255,0.8);
 		}
+		input[type=button] {
+			color: #000;
+			outline: none;
+			display: block;
+			border: none;
+			border-radius: 1px;
+		}
+		.on {
+			background-color: #0f0;
+		}
+		.on::after {
+			content: "on!";
+		}
+		.off {
+			background-color: #f00;
+		}
 	</style>
 	<link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
 </head>
 <body style="background-color: #000;">
+	<input type="button" value="Rainbow Effects are " class="on" onclick="toggleRainbow()">
 	<h1 class="rainbow">Happy Birthday!</h1>
 	<div>
 		<p class="rainbow">Here are some things just for you, selected by your students.</p>
