@@ -8,8 +8,11 @@ body {
 	background-color: #000;
 }
 
-body h1 {
+.header {
+	width: fit-content;
 	position: sticky;
+	top: 0;
+	margin: 0 auto;
 }
 
 img {
